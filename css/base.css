@@ -1,12 +1,12 @@
 /*Variables*/
 :root {
-    --primary-color: #af9fff;
-    --primary-color-100: #d5ccff;
-    --primary-color-300: #7f66ff;
+    --primary-color: #1F9FA8;
+    --primary-color-800: #105156;
+    --primary-color-300: #7EE0E7;
 
-    --secondary-color: #025834;
-    --secondary-color-600: #04c876;
-    --secondary-color-900: #01321e;
+    --secondary-color: #942440;
+    --secondary-color-400: #D75B7A;
+    --secondary-color-100: #F5D6DE;
 
     --neutral-color: #e0e0e0;
 
@@ -50,7 +50,7 @@ a {
 }
 /*Text Style*/
 h1 {
-    color: var(--secondary-color-600);
+    color: var(--secondary-color);
     text-transform: uppercase;
     font-size: 2rem;
 }
@@ -69,7 +69,7 @@ p {
 
 .label-text {
     color: var(--background-color);
-    background-color: var(--primary-color-100);
+    background-color: var(--primary-color-300);
     text-transform: uppercase;
     font-weight: 600;
     padding: 0.8rem 1.5rem;

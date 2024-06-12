@@ -1,6 +1,6 @@
+/* Responsive Design and the Breakpoints
 
-
-
+Good practices: Add at least two media queries, one for tablet and one for phones.
 
 Following the Microsoft documentation.about-section
 - Phone or Small :-moz-full-screen
@@ -12,7 +12,7 @@ Following the Microsoft documentation.about-section
 
 -Tablet or medium screen
 
-@media((min-width:641px) and (max-width:1007px){
+@media((min-width:641px) and (max-width:1007px)){
     //Your style here
 }
 */
@@ -53,6 +53,19 @@ Following the Microsoft documentation.about-section
     .nav-btn span {
         display: block;
         width: 30px;
+        height: 3px;
+        background-color: var(--neutral-color);
+        margin: 6px auto;
     }
     
+    /*Toggle*/
+    #check-option:not(:checked)~.nav-option {
+        height: 0px;
+        overflow: hidden;
+    }
+
+    #check-option:checked~.nav-option {
+        height: auto;
+        overflow: auto;
+    }
 }
